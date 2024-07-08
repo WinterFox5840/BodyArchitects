@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Body Architects</string>
+    <string name="title_activity_signup">signup</string>
+    <string-array name="Agegroup">
+        <item>13-17 </item>
+        <item>18-25</item>
+        <item>26-35</item>
+        <item>36-50</item>
+        <item>50+</item>
+    </string-array>
+
+    <string-array name="Heightgroup">
+        <item>120-135</item>
+        <item>136-150</item>
+        <item>151-165</item>
+        <item>166-179</item>
+        <item>180+</item>
+    </string-array>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>
