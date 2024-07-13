@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/bowlby_one_sc</item>
+        <item>@font/bungee</item>
         <item>@font/lexend</item>
         <item>@font/lexend_black</item>
         <item>@font/lexend_bold</item>
@@ -8,5 +10,7 @@
         <item>@font/lexend_light</item>
         <item>@font/lexend_medium</item>
         <item>@font/lexend_thin</item>
+        <item>@font/rowdies</item>
+        <item>@font/sarala</item>
     </array>
 </resources>

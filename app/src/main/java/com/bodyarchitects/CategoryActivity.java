@@ -5,7 +5,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,6 +22,7 @@ public class CategoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category);
 
+        EditText weight=findViewById(R.id.Category_weight);
         Spinner spinnerage=findViewById(R.id.Category_ageGroup);
         Spinner spinnerheight=findViewById(R.id.Category_heightGroup);
         Spinner spinnergender=findViewById(R.id.Category_gender);
@@ -44,8 +47,18 @@ public class CategoryActivity extends AppCompatActivity {
         submitbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(CategoryActivity.this,DashboardActivity.class);
-                startActivity(intent);
+                if(spinnerage.getSelectedItem().toString().trim().equals("")){
+                    Toast.makeText(CategoryActivity.this, "Select Age", Toast.LENGTH_SHORT).show();
+                } else if (spinnerheight.getSelectedItem().toString().trim().equals("")) {
+                    Toast.makeText(CategoryActivity.this, "Select Height", Toast.LENGTH_SHORT).show();
+                } else if (weight.getText().toString().trim().equals("")) {
+                    weight.setError("Enter Weight");
+                } else if (spinnergender.getSelectedItem().toString().trim().equals("")) {
+                    Toast.makeText(CategoryActivity.this, "Select Gender", Toast.LENGTH_SHORT).show();
+                } else {
+                    Intent intent = new Intent(CategoryActivity.this, DashboardActivity.class);
+                    startActivity(intent);
+                }
             }
         });
 

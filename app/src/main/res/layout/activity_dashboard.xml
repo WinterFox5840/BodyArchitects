@@ -7,20 +7,104 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/black"
-    tools:context=".DashboardActivity">
+    tools:context=".DashboardActivity"
+    android:padding="10dp"
+    style="Theme.MaterialComponents.DayNight.NoActionBar">
 
-    <ImageView
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Welcome USER"
+      android:textColor="#CD5A07"
+      android:textSize="35dp"
+      android:layout_marginTop="10dp"
+      android:textStyle="bold"/>
+
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/khali"/>
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="150dp"
+            android:src="@drawable/clockbackground" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="20dp"
+            android:textStyle="bold"/>
+
+        <Button
+            style="Theme.MaterialComponents.DayNight.NoActionBar"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="98dp"
+            android:background="@drawable/pausebutton"
+            android:text="Start"
+            android:textStyle="bold" />
+
+        <Button
+            style="Theme.MaterialComponents.DayNight.NoActionBar"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="98dp"
+            android:background="@drawable/pausebutton"
+            android:text="Start"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="200"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="37dp"
+            android:paddingLeft="300dp"
+            android:paddingTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16:00"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:paddingLeft="300dp"
+            android:paddingTop="82dp"/>
+
+        <ImageView
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:src="@drawable/fireicon"
+            android:layout_marginTop="37dp"
+            android:layout_marginLeft="260dp"/>
+
+        <ImageView
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:src="@drawable/timeicon"
+            android:layout_marginTop="84dp"
+            android:layout_marginLeft="260dp"/>
+
+
+    </FrameLayout>
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="KHALI PAJI"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="50dp"
-        android:textColor="@color/blue"/>
+        android:text="Top Picks For You!"
+        android:textColor="#CD5A07"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
 
 </LinearLayout>

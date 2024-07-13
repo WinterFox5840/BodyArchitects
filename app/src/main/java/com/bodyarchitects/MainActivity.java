@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
 
-                Intent intent=new Intent(MainActivity.this, signupActivity.class);
+                Intent intent=new Intent(MainActivity.this, DashboardActivity.class);
                 startActivity(intent);
 
             }
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         forgotpassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(MainActivity.this,ForgotpasswordActivity.class);
+                Intent intent=new Intent(MainActivity.this, Newdashboard.class);
                 startActivity(intent);
             }
         });

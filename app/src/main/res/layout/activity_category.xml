@@ -81,6 +81,7 @@
             android:textColor="@color/white"/>
 
         <EditText
+            android:id="@+id/Category_weight"
             android:layout_width="80dp"
             android:layout_height="40dp"
             android:background="@drawable/inputbackground2"

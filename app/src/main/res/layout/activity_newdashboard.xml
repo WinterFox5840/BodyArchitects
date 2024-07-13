@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Newdashboard"
+        android:orientation="vertical"
+        android:background="#1c1c1c">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="220dp"
+                    android:src="@drawable/clockbackground"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="64dp"
+                    android:fontFamily="@font/bungee"
+                    android:gravity="center"
+                    android:text="00:00"
+                    android:textColor="@color/white"
+                    android:textSize="75dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="220dp"
+                        android:background="@drawable/pausebutton"
+                        android:fontFamily="@font/bungee"
+                        android:text="Start"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="220dp"
+                        android:background="@drawable/pausebutton"
+                        android:fontFamily="@font/bungee"
+                        android:text="Pause"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/timeicon"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="75dp"/>
+
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:fontFamily="@font/bowlby_one_sc"
+                    android:text="16:00"
+                    android:textColor="@color/white"
+                    android:textSize="24dp" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/fireicon"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="2dp"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="200"
+                    android:fontFamily="@font/bowlby_one_sc"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="24dp"
+                    android:layout_marginLeft="7dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#171717"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/rowdies"
+                    android:text="Top Picks For You!"
+                    android:textColor="#bb0000"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:src="@drawable/pickedworkoutbackground"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="85dp"
+                            android:layout_height="85dp"
+                            android:src="@drawable/dumbel_curls"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dumbel Curls"
+                                android:textColor="@color/white"
+                                android:textSize="23dp"
+                                android:textStyle="bold"
+                                android:paddingLeft="13dp"
+                                android:paddingTop="8dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="- upper arm muscles \n- lower arm muscles"
+                                android:textColor="#A2A2A2"
+                                android:textSize="15dp"
+                                android:paddingLeft="18dp"
+                                android:paddingTop="4dp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:src="@drawable/pickedworkoutbackground"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="85dp"
+                            android:layout_height="85dp"
+                            android:src="@drawable/dumbel_curls"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dumbel Curls"
+                                android:textColor="@color/white"
+                                android:textSize="23dp"
+                                android:textStyle="bold"
+                                android:paddingLeft="13dp"
+                                android:paddingTop="8dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="- upper arm muscles \n- lower arm muscles"
+                                android:textColor="#A2A2A2"
+                                android:textSize="15dp"
+                                android:paddingLeft="18dp"
+                                android:paddingTop="4dp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:src="@drawable/pickedworkoutbackground"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="85dp"
+                            android:layout_height="85dp"
+                            android:src="@drawable/dumbel_curls"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dumbel Curls"
+                                android:textColor="@color/white"
+                                android:textSize="23dp"
+                                android:textStyle="bold"
+                                android:paddingLeft="13dp"
+                                android:paddingTop="8dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="- upper arm muscles \n- lower arm muscles"
+                                android:textColor="#A2A2A2"
+                                android:textSize="15dp"
+                                android:paddingLeft="18dp"
+                                android:paddingTop="4dp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:src="@drawable/pickedworkoutbackground"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="85dp"
+                            android:layout_height="85dp"
+                            android:src="@drawable/dumbel_curls"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dumbel Curls"
+                                android:textColor="@color/white"
+                                android:textSize="23dp"
+                                android:textStyle="bold"
+                                android:paddingLeft="13dp"
+                                android:paddingTop="8dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="- upper arm muscles \n- lower arm muscles"
+                                android:textColor="#A2A2A2"
+                                android:textSize="15dp"
+                                android:paddingLeft="18dp"
+                                android:paddingTop="4dp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#1c1c1c"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/home__1_"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="56dp"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/exerciseicon"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="70dp"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/menu"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="70dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
