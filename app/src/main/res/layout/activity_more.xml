@@ -6,16 +6,96 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MoreActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/black">
 
-    <SeekBar
-        android:id="@+id/seekBar"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:max="100" />
+        android:layout_height="match_parent">
+        <TextView
+            android:background="#1c1c1c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="20dp"
+            android:fontFamily="@font/rowdies"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:fontFamily="@font/rowdies"
+            android:textColor="#C8C7C7"
+            android:background="@color/black"
+            android:gravity="left"
+            android:paddingLeft="50dp"
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Body"
+            android:fontFamily="@font/rowdies"
+            android:textColor="#C8C7C7"
+            android:background="@color/black"
+            android:gravity="left"
+            android:paddingLeft="50dp"
+            android:textSize="30dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log OUt"
+            android:fontFamily="@font/rowdies"
+            android:textColor="#C8C7C7"
+            android:background="@color/black"
+            android:gravity="left"
+            android:paddingLeft="50dp"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#1c1c1c"
+        android:orientation="horizontal"
+        android:layout_marginTop="-65dp">
+
+        <Button
+            android:id="@+id/more_home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/home__1_"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="56dp"/>
+
+        <Button
+            android:id="@+id/more_workouts"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/exerciseicon"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="70dp"/>
+
+        <Button
+            android:id="@+id/more_more"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/menu"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="70dp"/>
+
+    </LinearLayout>
+
+
 
 
 
 
 </LinearLayout>
+
+
