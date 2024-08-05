@@ -25,6 +25,7 @@
             android:fontFamily="@font/rowdies"/>
 
         <Button
+            android:id="@+id/more_profile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Profile"
@@ -47,6 +48,7 @@
             android:paddingLeft="50dp"
             android:textSize="30dp"/>
         <Button
+            android:id="@+id/more_logout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Log OUt"

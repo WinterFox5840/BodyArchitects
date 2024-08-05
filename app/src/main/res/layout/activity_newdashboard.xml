@@ -309,6 +309,7 @@
                             android:orientation="vertical">
 
                             <TextView
+                                android:id="@+id/exercise2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Dumbel Curls"
@@ -363,6 +364,7 @@
                             android:orientation="vertical">
 
                             <TextView
+                                android:id="@+id/exercise3"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Dumbel Curls"
@@ -417,6 +419,117 @@
                             android:orientation="vertical">
 
                             <TextView
+                                android:id="@+id/exercise4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dumbel Curls"
+                                android:textColor="@color/white"
+                                android:textSize="23dp"
+                                android:textStyle="bold"
+                                android:paddingLeft="13dp"
+                                android:paddingTop="8dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="- upper arm muscles \n- lower arm muscles"
+                                android:textColor="#A2A2A2"
+                                android:textSize="15dp"
+                                android:paddingLeft="18dp"
+                                android:paddingTop="4dp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:src="@drawable/pickedworkoutbackground"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="85dp"
+                            android:layout_height="85dp"
+                            android:src="@drawable/dumbel_curls"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/exercise5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dumbel Curls"
+                                android:textColor="@color/white"
+                                android:textSize="23dp"
+                                android:textStyle="bold"
+                                android:paddingLeft="13dp"
+                                android:paddingTop="8dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="- upper arm muscles \n- lower arm muscles"
+                                android:textColor="#A2A2A2"
+                                android:textSize="15dp"
+                                android:paddingLeft="18dp"
+                                android:paddingTop="4dp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:src="@drawable/pickedworkoutbackground"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="85dp"
+                            android:layout_height="85dp"
+                            android:src="@drawable/dumbel_curls"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/exercise6"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Dumbel Curls"
